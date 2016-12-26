@@ -13,7 +13,7 @@ FlowRouter.route('/', {
 
 FlowRouter.route('/hello', {
   action() {
-    console.log('Hello');
+    console.log('Hello edited');
     mount(MainLayout, {
       content: (<HelloWorld />)
     });
